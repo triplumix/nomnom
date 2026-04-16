@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — NomNom</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.7; }
+  h1 { color: #6B9B37; margin-bottom: 4px; }
+  h2 { color: #444; margin-top: 32px; }
+  .date { color: #888; font-size: 14px; margin-bottom: 24px; }
+  .back { color: #6B9B37; text-decoration: none; font-weight: 600; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+</style>
+</head>
+<body>
+<a class="back" href="index.html">&larr; Back</a>
+<h1>Privacy Policy</h1>
+<p class="date">Last updated: April 15, 2026</p>
+
+<p>NomNom ("we", "our", "the app") is a macro-nutrient tracking mobile application. This Privacy Policy explains what data we collect, how we use it, and your rights regarding that data.</p>
+
+<h2>1. Data We Collect</h2>
+
+<h3>Account Data</h3>
+<ul>
+  <li><strong>Email address</strong> — used for account creation, login, and password recovery.</li>
+  <li><strong>Password</strong> — stored as a one-way bcrypt hash. We never store or see your plain-text password.</li>
+  <li><strong>Guest accounts</strong> — if you skip registration, a temporary anonymous account is created with no personal identifiers.</li>
+</ul>
+
+<h3>Health &amp; Nutrition Data</h3>
+<ul>
+  <li><strong>Meals logged</strong> — food names, estimated macronutrients (calories, protein, carbs, fat), timestamps, and optional meal photos.</li>
+  <li><strong>Daily nutrition goals</strong> — calorie and macro targets you set.</li>
+  <li><strong>Profile data</strong> — weight, height, age, sex, and activity level (only if you choose to enter them for personalized recommendations).</li>
+</ul>
+
+<h3>Photos</h3>
+<ul>
+  <li><strong>Food photos</strong> — sent to our server for AI analysis, then stored to display in your meal history.</li>
+  <li><strong>Fridge/pantry photos</strong> — processed by AI for ingredient recognition. These photos are not permanently stored on our servers after analysis.</li>
+</ul>
+
+<h3>Usage Data</h3>
+<ul>
+  <li><strong>Credit balance and transaction history</strong> — records of credits earned (ads, purchases) and spent (AI scans, coach chat).</li>
+  <li><strong>Coach conversations</strong> — messages exchanged with the AI nutrition coach, stored to maintain conversation context.</li>
+  <li><strong>Coach memory</strong> — preferences, dietary restrictions, and goals that the AI coach remembers to personalize advice.</li>
+</ul>
+
+<h3>Technical Data</h3>
+<ul>
+  <li>Device type (iOS/Android), app version.</li>
+  <li>We do <strong>not</strong> collect location data, contacts, or browsing history.</li>
+</ul>
+
+<h2>2. How We Use Your Data</h2>
+<ul>
+  <li><strong>Core functionality</strong> — logging meals, tracking macros, displaying history and statistics.</li>
+  <li><strong>AI food analysis</strong> — food photos are sent to Google Gemini API for nutritional estimation. See Section 5 for third-party details.</li>
+  <li><strong>Personalized coaching</strong> — your meal history and stated preferences help the AI coach provide relevant advice.</li>
+  <li><strong>Account security</strong> — email for password resets and authentication.</li>
+</ul>
+
+<h2>3. Data Storage &amp; Security</h2>
+<ul>
+  <li>All data is stored in a secure MySQL database.</li>
+  <li>Passwords are hashed with bcrypt (never stored in plain text).</li>
+  <li>Authentication uses JWT tokens with short expiry and refresh token rotation.</li>
+  <li>API communication uses HTTPS encryption.</li>
+</ul>
+
+<h2>4. Data Retention</h2>
+<ul>
+  <li>Your meal data and account are retained as long as your account is active.</li>
+  <li>Guest account data may be deleted after 90 days of inactivity.</li>
+  <li>You can request deletion of your account and all associated data at any time by contacting us.</li>
+</ul>
+
+<h2>5. Third-Party Services</h2>
+<ul>
+  <li><strong>Google Gemini AI</strong> — food photos and text descriptions are sent to Google's Gemini API for nutritional analysis. Google's <a href="https://policies.google.com/privacy">privacy policy</a> applies to data processed by their API.</li>
+  <li><strong>Google AdMob</strong> — rewarded video ads are shown when you choose to watch them for free credits. AdMob may collect device identifiers for ad personalization. See Google's <a href="https://policies.google.com/technologies/ads">ad privacy policy</a>.</li>
+  <li><strong>Open Food Facts / USDA</strong> — barcode lookups query public food databases. No personal data is sent to these services.</li>
+</ul>
+
+<h2>6. Advertising</h2>
+<p>NomNom shows <strong>opt-in rewarded video ads only</strong>. You choose when to watch an ad in exchange for free credits. We do not show banner ads, interstitial ads, or any involuntary advertising.</p>
+
+<h2>7. Children's Privacy</h2>
+<p>NomNom is not intended for children under 13. We do not knowingly collect data from children. If you believe a child has provided us data, contact us for removal.</p>
+
+<h2>8. Your Rights</h2>
+<p>You have the right to:</p>
+<ul>
+  <li>Access the personal data we hold about you.</li>
+  <li>Request correction of inaccurate data.</li>
+  <li>Request deletion of your account and data.</li>
+  <li>Export your meal data.</li>
+</ul>
+<p>To exercise any of these rights, contact us at the email below.</p>
+
+<h2>9. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last updated" date. Continued use of the app after changes constitutes acceptance.</p>
+
+<h2>10. Contact</h2>
+<p>For privacy questions or data requests, contact us at:<br>
+<strong>privacy@nomnom.app</strong></p>
+
+</body>
+</html>
